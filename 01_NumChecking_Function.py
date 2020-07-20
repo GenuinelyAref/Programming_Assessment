@@ -13,6 +13,6 @@ def numcheck(value):
 
 
 # Main routine
-for i in range(0, 3):
+for i in range(0, 6):
     user_input = input("\nType a string/float/integer: ")
     numcheck(user_input)

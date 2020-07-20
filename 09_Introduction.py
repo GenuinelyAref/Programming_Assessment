@@ -2,8 +2,9 @@
 
 introduction = "\nThis quiz will be testing you on 4 different areas of mathematics:\n\nRounding decimals\nPythagor" \
                "ean theorem\nQuadratic expansion & solving\nAlgebraic substitution\n\nThere are 3 difficulties to c" \
-               "omplete the quiz with, easy, moderate and hard.\nEach difficulty grants you a number of trials for " \
-               "each question you complete.\n\nEasy = 5\nModerate = 3\nHard = 1"
+               "omplete the quiz with, easy, moderate and hard.\nEach difficulty grants you a number of goes that y" \
+               "ou can have on any question.\nIt is recommended that you attempt the moderate level first. \n\nEasy" \
+               " = 5\nModerate = 3\nHard = 1"
 
 print("Welcome to the Y11 Mathematics Quiz!\n")
 

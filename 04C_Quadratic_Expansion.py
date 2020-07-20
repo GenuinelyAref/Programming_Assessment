@@ -1,7 +1,7 @@
 # Component 4C: Expanding quadratic using alpha and beta values
 
-alpha = -9
-beta = -8
+alpha = -3
+beta = 3
 
 factorised_quadratic = "(x{})(x{})".format(alpha, beta)
 print(factorised_quadratic)

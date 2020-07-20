@@ -1,4 +1,4 @@
-# Component 6ii: Tricky substitution (exponential equations)
+# Component 6D: Tricky substitution (exponential equations)
 
 # Equation ==> y = an^(bx+c) + d
 # Mathematical limitations:

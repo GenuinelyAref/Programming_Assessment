@@ -1,4 +1,4 @@
-# Component 6Ci: Tricky Substitution (absolute value)
+# Component 6C: Tricky Substitution (absolute value)
 
 import random
 
@@ -55,4 +55,3 @@ print("{} {} {} {}".format(part_one, part_two, part_three, part_four))
 
 print("a = {} / b = {}".format(a, b))
 print("\nSolution: {}".format(answer))
-print(num_four)

@@ -26,4 +26,9 @@ for i in range(0, len(questions)):
                 break
             else:
                 print("Sorry, that's incorrect (you have {} trial(s) left)".format(trials))
-    print(round_trials)
+
+
+print("\n")
+
+for item in range(0, len(questions)):
+    print("You took {} trial(s) for question {}".format(round_trials[item], item+1))

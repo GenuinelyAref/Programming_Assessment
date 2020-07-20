@@ -124,11 +124,11 @@ def decorate_print(text, char, style):
 
 
 # Type 1 testing, winning message, single line decoration
-win = decorate_print("Correct!", "-", 1)
+win = decorate_print("Correct answer!", "-", 1)
 # Type 2 testing, losing message, triple line decoration
-loss = decorate_print("Sorry, that's incorrect", ":", 2)
+loss = decorate_print("Question 2", ":", 2)
 # Type 3 testing, very happy message!!, multi-line (3+) decoration
-test = decorate_print("My\nprogram\nworks\nas\nexpected,\nyay!!", "*", 3)
+test = decorate_print("Difficulties:\n\nEasy = 5 trials\nModerate = 3 trials\nHard = 1 trial", "*", 3)
 
 # Print the returned values within the variables
 print("{}\n\n{}\n\n{}".format(win, loss, test))

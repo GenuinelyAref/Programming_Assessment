@@ -28,14 +28,14 @@ for i in range(0, len(questions)):
             valid = False
             if trials == 0:
                 print("Sorry, that's incorrect. You ran out of trials >> next question")
-                round_trials.append(TRIALS - trials)
+                round_trials.append(TRIALS+1)
                 break
             else:
                 print("Sorry, that's incorrect (you have {} trial(s) left)".format(trials))
     print(round_trials)
 print()
 for item in range(0, len(questions)):
-    round_score = (round_trials[item]*-25)+125
+    round_score = (round_trials[item]*-20)+120
     score.append(round_score)
     print("Question {} performance: {}%".format(item+1, round_score))
 
